@@ -1,0 +1,32 @@
+{
+  "name": "michael-rademeyer-portfolio",
+  "version": "1.0.0",
+  "description": "Michael Rademeyer's Professional Portfolio Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'Portfolio website - serve index.html with a web server'",
+    "build": "echo 'No build required - static site is ready'",
+    "test": "echo 'No tests defined'",
+    "lint": "echo 'No linting configured'"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "senior",
+    "software",
+    "website",
+    "static"
+  ],
+  "author": "Michael Rademeyer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mikerad1/mikerad1.github.io.git"
+  },
+  "homepage": "https://www.michaelrademeyer.dev",
+  "bugs": {
+    "url": "https://github.com/Mikerad1/mikerad1.github.io/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

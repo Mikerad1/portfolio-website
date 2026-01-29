@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Michael Rademeyer</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.ico">
+
+</head>
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header>   	
+   	<div class="row">
+
+   		<div class="top-bar">
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">Rademeyer</a>
+		      </div>		      
+
+		   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">About</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">Resume</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">Portfolio</a></li>
+						<li><a class="smoothscroll"  href="#services" title="">Services</a></li>					
+						<li><a class="smoothscroll"  href="#contact" title="">Contact</a></li>		
+					</ul>
+				</nav>    		
+   		</div> <!-- /top-bar --> 
+   		
+   	</div> <!-- /row --> 		
+   </header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+   <section id="intro">   
+
+   	<div class="intro-overlay"></div>	
+
+   	<div class="intro-content">
+   		<div class="row">
+
+   			<div class="col-twelve">
+
+	   			<h5>Hello, World.</h5>
+	   			<h1>I'm Michael Rademeyer.</h1>
+
+	   			<p class="intro-position">
+	   				<span>Senior Software Developer</span>
+	   				<span>Full Stack Developer</span> 
+	   			</p>
+
+	   			<a class="button stroke smoothscroll" href="#about" title="">Click Here to Know Me</a>
+
+	   		</div>  
+   			
+   		</div>   		 		
+   	</div> <!-- /intro-content --> 
+
+   	<ul class="intro-social">        
+         <li><a href="https://github.com/Mikerad1"><i class="fa fa-github"></i></a></li>
+         <li><a href="https://www.linkedin.com/in/michael-rademeyer-151891118/"><i class="fa fa-linkedin"></i></a></li>
+      </ul> <!-- /intro-social -->      	
+
+   </section> <!-- /intro -->
+
+
+   <!-- about section
+   ================================================== -->
+   <section id="about">  
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			<h1>This is me!</h1>
+
+   			<div class="intro-info">
+
+   				<img src="images/profile-pic.jpg" alt="Profile Picture">
+
+   				<p class="lead">
+					I am a Senior Software Developer with <em id="amountOfYears"></em>'s of experience. 
+					I enjoy coding problems that challenge me and learning new things. Also, after learning new things, I like to present it to my collegues in a knowledge sharing session
+				</p>
+   			</div>   			
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>Profile</h3>
+
+   			<ul class="info-list">
+   				<li>
+   					<strong>Fullname:</strong>
+   					<span>Michael Rademeyer</span>
+   				</li>
+   				<li>
+   					<strong>Birth Date:</strong>
+   					<span>21 December 1994</span>
+   				</li>
+   				<li>
+   					<strong>Job:</strong>
+   					<span>Senior Software Developer Tier 2</span>
+   				</li>
+   				<li>
+   					<strong>Website:</strong>
+   					<span>www.michaelrademeyer.dev</span>
+   				</li>
+   				<li>
+   					<strong>Email:</strong>
+   					<span><a href="mailto:michaelrademeyer@hotmail.com">michaelrademeyer@hotmail.com</a></span>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Skills</h3>
+				<p>For a full list of my skills, check my CV</p>
+				<ul class="skill-bars">
+				   <li>
+						<div class="progress percent90"><span>90%</span></div>
+						<strong>C#</strong>
+				   </li>
+				   <li>
+						<div class="progress percent90"><span>90%</span></div>
+						<strong>ASP.NET Core</strong>
+				   </li>
+				   <li>
+						<div class="progress percent90"><span>90%</span></div>
+						<strong>Blazor</strong>
+				   </li>
+				   <li>
+						<div class="progress percent65"><span>65%</span></div>
+						<strong>Angular</strong>
+				   </li>
+				   <li>
+						<div class="progress percent60"><span>60%</span></div>
+						<strong>Kubernetes</strong>
+				   </li>
+				   <li>
+						<div class="progress percent60"><span>60%</span></div>
+						<strong>Docker</strong>
+				   </li>
+				   <li>
+						<div class="progress percent75"><span>75%</span></div>
+						<strong>Typescript</strong>
+				   </li>
+      
+				</ul> <!-- /skill-bars -->		
+
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+   			<a href="/docs/My CV 2024-07-05.pdf" target="_blank" title="Download CV" class="button button-primary">Download CV</a>
+   		</div>   		
+   	</div>
+
+   </section> <!-- /process-->    
+
+
+   <!-- resume Section
+   ================================================== -->
+	<section id="resume" class="grey-section">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Resume</h5>
+   			<h1>More of my credentials.</h1>
+
+   			<p class="lead">
+				Here you will find all the details about my work experience and eduction.
+			</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Work Experience</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+				<div class="timeline-block">
+
+					<div class="timeline-ico">
+						<i class="fa fa-graduation-cap"></i>
+					</div>
+
+					<div class="timeline-header">
+						<h3>Senior Software Developer Tier 2</h3>
+						<p>July 2024 - Present</p>
+					</div>
+
+					<div class="timeline-content">
+						<h4>Velocity Cubed</h4>
+						<p>
+						 During my time here, I still worked on the financial system, mainaining it and fixing issues.
+						 I have also hosted another brown bag session.
+					 </p>
+					</div>
+
+				</div> <!-- /timeline-block -->
+				<div class="timeline-block">
+
+					<div class="timeline-ico">
+						<i class="fa fa-graduation-cap"></i>
+					</div>
+
+					<div class="timeline-header">
+						<h3>Senior Software Developer Tier 1</h3>
+						<p>June 2023 - July 2024</p>
+					</div>
+
+					<div class="timeline-content">
+						<h4>Velocity Cubed</h4>
+						<p>
+						 During my time here, I have been involved with 1 project, a
+financial project.
+The financial system, I came in to support the system as it has already gone live. It consits of
+getting transactional data from the banks and data from the travel agencies and matching
+them together and sending the combined data to their customer. So I would fix any issues
+that arise in the system or implement feature requests for the system.
+This system was built and maintained in C# as the primary backend language.
+I have also hosted 2 brown bag sessions during my time here for me to show new
+technologies for my colleagues.
+					 </p>
+					</div>
+
+				</div> <!-- /timeline-block -->
+				<div class="timeline-block">
+
+					<div class="timeline-ico">
+						<i class="fa fa-graduation-cap"></i>
+					</div>
+
+					<div class="timeline-header">
+						<h3>Full Stack Developer</h3>
+						<p>November 2022 - June 2023</p>
+					</div>
+
+					<div class="timeline-content">
+						<h4>Velocity Cubed</h4>
+						<p>
+						 During my time here, I have been involved with 1 project, an administrative project.
+For the administrative project, we linked 2 systems that the client uses into one system so
+that it is easier for them to bill their customers.
+This system was built and maintained in C# as the primary backend language and Angular as the primary frontend language.
+					 </p>
+					</div>
+
+				</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Backend Developer</h3>
+	   					<p>December 2020 - November 2022</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Securities and Trading Technology</h4>
+	   					<p>
+							During my time here I have worked on a market surveillance product and the rewrite of that
+product. This has exposed my to working with docker, Kubernetes and Azure DevOps builds
+and pipelines. I also manage the company's Kubernetes clusters
+						</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-graduation-cap"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Software Developer</h3>
+	   					<p>January 2017- December 2020</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Sybrin Systems</h4>
+	   					<p>During my time here, I have increased my experience with dealing with customers including
+							having internal training on how to handle them. While here, I have worked in both support
+							and projects and because of this whenever an issue arises, I have less trouble identifying
+							them and resolving them and be able to design a system end to end. In doing this my skill in
+							SQL, C# and analytical thinking has increased because of the frequency that I have to
+							employ them. I have worked in both the support and projects sections. While in the support
+							space, I was looking after the same client for a year and a half, solving any issues that they
+							logged. While in the project space I worked with multiple clients while completing their
+							projects.</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+   	
+   	<div class="row resume-timeline">
+
+   		<div class="col-twelve resume-header">
+
+   			<h2>Education</h2>
+
+   		</div> <!-- /resume-header -->
+
+   		<div class="col-twelve">
+
+   			<div class="timeline-wrap">
+
+   				<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Certified Kubernetes Administrator</h3>
+	   					<p>August 2022</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>The Linux Foundation</h4>
+	   					<p>Studying this certification opened my world to the world of Kubernetes and how to manage a cluster</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Bachelor in Computing</h3>
+	   					<p>January 2013 - May 2018</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Belgium Campus ITVarsity</h4>
+	   					<p>
+							The years I spent here taught me all I needed to be software developer and all the intricacies that it entails
+						</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+	   			<div class="timeline-block">
+
+	   				<div class="timeline-ico">
+	   					<i class="fa fa-briefcase"></i>
+	   				</div>
+
+	   				<div class="timeline-header">
+	   					<h3>Matric</h3>
+	   					<p>January 2008 - December 2012</p>
+	   				</div>
+
+	   				<div class="timeline-content">
+	   					<h4>Clapham High School</h4>
+	   					<p>
+							The years I spent year taught me the basics required to get into univeristy, to be able to become a Software Developer.
+						</p>
+	   				</div>
+
+	   			</div> <!-- /timeline-block -->
+
+   			</div> <!-- /timeline-wrap -->   			
+
+   		</div> <!-- /col-twelve -->
+   		
+   	</div> <!-- /resume-timeline -->
+		
+	</section> <!-- /features -->
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Portfolio</h5>
+   			<h1>Check Out Some of My Works.</h1>
+
+   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
+   		</div>   		
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+
+   			<!-- portfolio-wrapper -->
+	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/music_fusion_logo.png" alt="MusicFusion">
+	                  <a href="#modal-01" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Music Fusion</h3>	     					    
+		     					    	 <span class="folio-types">
+		     					       	  Personal Software Project 
+		     					       </span>
+										<p><em>Currently Down</em></p>
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>	               
+	        		</div> <!-- /folio-item -->
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/ArtistMarketLogo.png" alt="ArtistMarket">
+	               	<a href="#modal-02" class="overlay">              		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Artist Market</h3>	     					    
+		     					    	<span class="folio-types">
+		     					       	  Personal Software Project
+		     					      </span>	
+									   <p><em>Coming Soon</em></p>	     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <!-- modal popups - begin
+	            ============================================================= -->
+	            <div id="modal-01" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/music_fusion_logo.png" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Music Fusion</h4>		      
+					      <p>
+							This was a playlist collaboration app for parties so that people can share the music they like at a party.
+						  </p>
+
+					      <div class="categories">Personal Software Project</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="#">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-01 -->
+
+				   <div id="modal-02" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/ArtistMarketLogo.png" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Artist Market</h4>		      
+					      <p>Top Secret till released. Stay tuned!</p>
+
+					      <div class="categories">Personal Software Project</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="#">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
+				   </div> <!-- /modal-02 -->
+
+				   <!-- modal popups - end
+	            ============================================================= -->
+
+	         </div> <!-- /portfolio-wrapper --> 
+
+   		</div>  <!-- /twelve -->   
+
+   	</div> <!-- /portfolio-content --> 
+		
+	</section> <!-- /portfolio --> 
+	
+	<!-- services Section
+   ================================================== -->
+	<section id="services">
+
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Services</h5>
+   			<h1>What Can I Do For You?</h1>
+
+   		</div>   		
+   	</div> <!-- /section-intro -->
+
+   	<div class="row services-content">
+
+   		<div id="owl-slider" class="owl-carousel services-list">
+
+	      	<div class="service">	
+
+	      		<span class="icon"><i class="icon-earth"></i></span>            
+
+	            <div class="service-content">	
+
+	            	 <h3>Software Design</h3>
+	         	</div> 	         	 
+
+				</div> <!-- /service -->
+
+				<div class="service">	
+
+					<span class="icon"><i class="icon-window"></i></span>                          
+
+	            <div class="service-content">	
+
+	            	<h3>Software Development</h3>  
+	            </div>	                          
+
+			   </div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-paint-brush"></i></span>		            
+
+	            <div class="service-content">
+
+	            	<h3>App Development</h3>
+
+	            </div> 	            	               
+
+			   </div> <!-- /service -->
+
+			   <div class="service">
+
+			   	<span class="icon"><i class="icon-chat"></i></span>	   	           
+
+	            <div class="service-content">
+
+	            	 <h3>Consultancy</h3>
+	        			
+	            </div>	               
+
+			   </div> <!-- /service -->
+
+	      </div> <!-- /services-list -->
+   		
+   	</div> <!-- /services-content -->
+		
+	</section> <!-- /services -->	
+
+
+	<!-- stats Section
+   ================================================== -->
+	<section id="stats" class="count-up">
+
+		<div class="row">
+			<div class="col-twelve">
+
+				<div class="block-1-3 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-pencil-ruler"></i>
+						</div>
+
+						<h3 class="stat-count">
+							8
+						</h3>
+
+						<h5 class="stat-title">
+							Projects Completed
+						</h5>
+
+					</div> <!-- /stat -->					
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-users"></i>
+						</div>
+
+						<h3 class="stat-count">
+							5
+						</h3>
+
+						<h5 class="stat-title">
+							Happy Clients
+						</h5>
+
+					</div> <!-- /stat -->							
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-light-bulb"></i>
+						</div>
+
+						<h3 class="stat-count">
+							1000000
+						</h3>
+
+						<h5 class="stat-title">
+							Crazy Ideas
+						</h5>
+
+					</div> <!-- /stat -->
+
+				</div> <!-- /stats-list -->
+
+			</div> <!-- /twelve -->
+		</div> <!-- /row -->
+
+	</section> <!-- /stats -->
+
+	
+   <!-- contact
+   ================================================== -->
+	<section id="contact">
+
+		<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>Contact</h5>
+   			<h1>I'd Love To Hear From You.</h1>
+
+   			</div> 
+   	</div> <!-- /section-intro -->
+
+   	<div class="row contact-info">
+
+   		<div class="col-twelve tab-full collapse">
+
+   			<div class="icon">
+   				<i class="icon-mail"></i>
+   			</div>
+
+   			<h5>Email Me At</h5>
+
+   			<p><a href="mailto:michaelrademeyer@hotmail.com">michaelrademeyer@hotmail.com</a>	     
+			</p>
+
+   		</div>
+   		
+   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
+
+
+   <!-- footer
+   ================================================== -->
+
+   <footer>
+     	<div class="row">
+
+      	<div class="col-eight tab-full">
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->     	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>

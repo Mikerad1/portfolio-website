@@ -1,0 +1,64 @@
+# Docker ignore file for portfolio website
+
+# Ignore git files
+.git
+.gitignore
+
+# Ignore Docker files (they'll be copied explicitly)
+Dockerfile
+.dockerignore
+
+# Ignore build artifacts
+node_modules/
+package-lock.json
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore local development files
+.env
+.env.local
+
+# Ignore build directories
+build/
+dist/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore temporary files
+tmp/
+temp/
+
+# Ignore logs
+*.log
+
+# Ignore DS_Store files (Mac)
+.DS_Store
+
+# Ignore Thumbs.db (Windows)
+Thumbs.db
+
+# Ignore any backup index files
+index.html.backup
+
+# Ignore any local override files
+*.local
+
+# Ignore any test files
+*.test.*
+*.spec.*
+
+# Ignore any documentation build files
+docs/build/
+
+# Ignore any temporary editor files
+*.tmp
+*.temp
