@@ -31,7 +31,6 @@ COPY css/ /usr/share/nginx/html/css/
 COPY js/ /usr/share/nginx/html/js/
 COPY images/ /usr/share/nginx/html/images/
 COPY fonts/ /usr/share/nginx/html/fonts/
-COPY docs/ /usr/share/nginx/html/docs/
 
 # Ensure proper permissions
 RUN chown -R nginx:nginx /usr/share/nginx/html
